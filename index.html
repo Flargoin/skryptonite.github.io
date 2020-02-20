@@ -16,9 +16,9 @@
     
         <nav>
         <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Об исполнителе</a></li>
-            <li><a href="#">Альбомы</a></li>
+            <li><a href="#main__top">Главная</a></li>
+            <li><a href="#content__artist-title">Об исполнителе</a></li>
+            <li><a href="#main__album-title">Альбомы</a></li>
             <li><a href="#">Концерты</a></li>
         </ul>
 
@@ -30,17 +30,17 @@
     <main>
         <div class="container">
             <section>
-        <div class="main__top">
+        <div id="main__top">
             <div class="main__top-subtitle">Новый тур</div>
-            <div class="main__top-title">Skryptonite</div>
+            <div class="main__top-title"><h1>Skryptonite</h1></div>
             <div class="main__top-text"><p> Первый тур по Европе с любимыми нам хитами и презентацией нового альбома</p></div>
-            <div class="main__top-btn"><a href="#">Купить билет</a></div>
+            <div class="main__top-btn"><a href="https://afisha.yandex.ru/moscow/concert/skriptonit-2020-04-10?from=afisha_text_wizard">Купить билет</a></div>
         </div>
         </section>
         <section>
         <div class="main__content-artist">
             <div class="main__content-right">
-                 <div class="content__artist-title">Об исполнителе</div>
+                 <div class="content__artist-title"><h2>Об исполнителе</h2></div>
                 <div class="content__artist">
                     <ul>
                     <li><img src="img/dot-inside-a-circle_icon-icons.com_70195.svg" alt="#"> <p> Скриптонит-русскоязычный исполнитель рэпа из Казахстана, битмейкер, резидент российского музыкального лейбла "Gazgolder".</p></li>
@@ -54,36 +54,36 @@
         </section>
         <section>
         <div class="albums">
-            <div class="main__album-title"><p>Альбомы</p></div>
+            
             <div class="albums__inner">
-                
+                <div id="main__album-title"><p>Альбомы</p></div>
                 <div class="items">
                     <div class="item">
-                        <div class="album-title">2004</div>
+                        <div class="album-title"><h3>2004</h3></div>
                         <div class="album__img img1"><img src="img/1alb.png" alt="Album"></div>
                         <div class="album-btn"><a href="https://music.yandex.ru/album/9684249"> Слушать </a></div>
                     </div>
 
                     <div class="item img2">
-                        <div class="album-title ">Праздник на улице 36</div>
+                        <div class="album-title "><h3>Праздник на улице 36</h3></div>
                         <div class="album__img "><img src="img/2alb.png" alt="Album"></div>
                         <div class="album-btn"><a href="https://music.yandex.ru/album/4416463"> Слушать </a></div>
                     </div>
 
                     <div class="item">
-                        <div class="album-title">Уроборос: Улица 36</div>
+                        <div class="album-title"><h3>Уроборос: Улица 36</h3></div>
                         <div class="album__img img3"><img src="img/3alb.png" alt="Album"></div>
                         <div class="album-btn"><a href="https://music.yandex.ru/album/4924440"> Слушать </a></div>
                     </div>
 
                     <div class="item">
-                        <div class="album-title img4">Уроборос: Зеркала</div>
+                        <div class="album-title img4"><h3>Уроборос: Зеркала</h3></div>
                         <div class="album__img"><img src="img/4alb.png" alt="Album"></div>
                         <div class="album-btn"><a href="https://music.yandex.ru/album/4924438"> Слушать </a></div>
                     </div>
 
                     <div class="item img1">
-                        <div class="album-title img5">Дом с нормальными явлениями</div>
+                        <div class="album-title img5"><h3>Дом с нормальными явлениями</h3></div>
                         <div class="album__img"><img src="img/5alb.png" alt="Album"></div>
                         <div class="album-btn"><a href="https://music.yandex.ru/album/3113431"> Слушать </a></div>
                     </div>
@@ -95,12 +95,86 @@
             <div class="concerts">
                 <div class="concerts-inner">
                     <div class="concerts-left">
+                        
+            <div class="concerts" id="concerts">
+            <div class="concerts-container">
+            <div id="concerts-title"><h2>Концерты</h2></div>
+                <div class="concerts-tickets">
+                    <div id="group" class="concerts-tickets-dates">
+                        <label class="concerts-dates">
+                            <input name="c" type="radio">
+                            <div class="concerts-content">
+                            <div class="concerts-date">17 января</div>
+                            <div class="concerts-cities">Минск</div>
+                            </div>
+                        </label>
+                        <label class="concerts-dates">
+                            <input name="c" type="radio">
+                            <div class="concerts-content">
+                                <div class="concerts-date">23 января</div>
+                                <div class="concerts-cities">Прага</div>
+                            </div>
+                        </label>
+                        <label class="concerts-dates">
+                            <input name="c" type="radio">
+                            <div class="concerts-content">
+                                <div class="concerts-date">28 января</div>
+                                <div class="concerts-cities">Лондон</div>
+                            </div>
+                        </label>
+                        <label class="concerts-dates">
+                            <input name="c" type="radio">
+                            <div class="concerts-content">
+                                <div class="concerts-date">1 февраля</div>
+                                <div class="concerts-cities">Рим</div>
+                            </div>
+                        </label>
+                        <label class="concerts-dates">
+                            <input name="c" type="radio">
+                            <div class="concerts-content">
+                                <div class="concerts-date">6 февраля</div>
+                                <div class="concerts-cities">Рига</div>
+                            </div>
+                        </label>
+                        <label class="concerts-dates">
+                            <input name="c" type="radio">
+                            <div class="concerts-content">
+                                <div class="concerts-date">10 февраля</div>
+                                <div class="concerts-cities">Берлин</div>
+                            </div>
+                        </label>
+                    </div>
+                   
+            
+            <div class="concerts-description">
+                <div class="concerts-description__buttons">
+                    <a class="button-music" id="tancpol" href="#tancpol">Танцпол</a>
+                    <a class="button-music" id="vip" href="#vip">VIP-место</a>
+                    <a class="button-meet" id="meet" href="#meet">meet&amp;Greet</a>
+                  </div>
+                <div class="concerts-description__count">
+                    <div class="concerts-description__count-title">Количество</div>
+                    <div class="concerts-description__count-change">
+                        <button class="concerts-description__count-change__minus" id="minus">-</button>
+                        <input disabled="" class="concerts-description__count-change__number" id="number" type="text" value="1">
+                        <button class="concerts-description__count-change__plus" id="plus">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <a class="concerts-button" href="https://afisha.yandex.ru/moscow/concert/skriptonit-2020-04-10?from=afisha_text_wizard" target="blank">Купить билет</a>
+
+
+        </div>
+    </div></body>
+</html>
 
                     </div>
                     <div class="concerts-right">
 
                     </div>
-                    <div class="concerts-btn"><a href="">Купить билет</a></div>
+             
                 </div>
             </div>
         </div>
@@ -109,8 +183,14 @@
     </main>
 
     <footer>
-
+        <div class="container">
+        <div class="footer__inner">
+            <div class="phone">8-888-888-88-88</div>
+            <div class="email">skryptonite@mail.ru</div>
+        </div>
+    </div>
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
