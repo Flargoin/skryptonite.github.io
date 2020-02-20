@@ -75,7 +75,7 @@ main{
     display: flex;
 }
 
-.main__content-right{
+#main__content-right{
     margin-top: 165px;
     margin-bottom: 200px;
     background-color: #000;
